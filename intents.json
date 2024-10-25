@@ -1,0 +1,35 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "Greetings!"]
+    },
+    {
+      "tag": "add_stock",
+      "patterns": ["Add stock", "I want to buy stock", "Buy shares", "Add shares"],
+      "responses": ["Which stock do you want to add and how many shares?"]
+    },
+    {
+      "tag": "remove_stock",
+      "patterns": ["Remove stock", "Sell stock", "Sell shares", "Remove shares"],
+      "responses": ["Which stock do you want to remove and how many shares?"]
+    },
+    {
+      "tag": "show_portfolio",
+      "patterns": ["Show portfolio", "What is in my portfolio", "My stocks", "Portfolio details"],
+      "responses": ["Here is your portfolio:"]
+    },
+    {
+      "tag": "portfolio_worth",
+      "patterns": ["What is my portfolio worth", "How much is my portfolio worth", "Portfolio value"],
+      "responses": ["Calculating the total worth of your portfolio..."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Exit"],
+      "responses": ["Goodbye!"]
+    }
+  ]
+}
+
